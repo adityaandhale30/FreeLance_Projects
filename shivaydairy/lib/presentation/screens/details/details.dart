@@ -44,6 +44,8 @@ class _details extends State {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(onPressed:openBottomSheet),
+    );
   }
 }

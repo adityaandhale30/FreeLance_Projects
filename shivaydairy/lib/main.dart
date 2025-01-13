@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:shivaydairy/details.dart';
-import 'package:shivaydairy/home.dart';
-import 'package:shivaydairy/otppage.dart';
-import 'login.dart';
+import 'package:shivaydairy/presentation/screens/details/details.dart';
+import 'package:shivaydairy/presentation/screens/home/home.dart';
+import 'package:shivaydairy/presentation/screens/login/otppage.dart';
+import 'presentation/screens/login/login.dart';
 
 void main() {
   runApp(const MainApp());
